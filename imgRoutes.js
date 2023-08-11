@@ -7,11 +7,11 @@ router
     .get(imgController.getAllImages)
     .post(imgController.uploadImage)
 
-// router
-//     .route('/:name')
-//     .get(imgController.getImage)
-//     .delete(imgController.deleteImage)
-//     .put(imgController.updateImage)
+router
+    .route('/:name')
+    .get(imgController.getImage)
+    .delete(imgController.deleteImage)
+    .put(imgController.updateImage)
 
 
 module.exports = router;
