@@ -15,8 +15,6 @@ router
 
 
 module.exports = router;
-
-
 /*
 Upload Image
 Delete Image
