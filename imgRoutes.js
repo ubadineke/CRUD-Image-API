@@ -12,8 +12,6 @@ router
     .get(imgController.getImage)
     .delete(imgController.deleteImage)
     .put(imgController.updateImage)
-
-
 module.exports = router;
 /*
 Upload Image
